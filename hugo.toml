@@ -1,7 +1,7 @@
 baseURL = "https://DaniHolzer.github.io/my-blog/"
 languageCode = "en-us"
 title = "My Blog"
-theme = "congo"
+theme = "compose"
 
 [params]
   author = "Daniel Holzer"
