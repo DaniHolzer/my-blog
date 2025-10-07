@@ -1,0 +1,37 @@
+baseURL = "https://DaniHolzer.github.io/my-blog/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "congo"
+
+[params]
+  author = "Daniel Holzer"
+  description = "Your blog description"
+  keywords = "blog,developer,personal"
+  info = ["On my way to WebDev"]
+  # avatarURL = "images/avatar.jpg"  # optional
+  colorScheme = "auto"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github"
+  weight = 1
+  url = "https://github.com/DaniHolzer/"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-twitter"
+  weight = 2
+  url = "https://twitter.com/DanielHolz19614/"
+
+[languages.en]
+  languageName = "English"
+
+[[languages.en.menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "posts/"
+
+[[languages.en.menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
