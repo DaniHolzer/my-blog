@@ -1,6 +1,6 @@
 baseURL = "https://DaniHolzer.github.io/my-blog/"
 languageCode = "en-us"
-title = "My Blog"
+title = "Daniel's Blog"
 theme = "compose"
 
 [params]
