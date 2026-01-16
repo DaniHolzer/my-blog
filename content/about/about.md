@@ -1,5 +1,5 @@
 +++
-#title: "About Me"
+title: "About Me"
 date = "2025-11-22T10:24:00+02:00"
 draft = false
 hideLastModified = true
