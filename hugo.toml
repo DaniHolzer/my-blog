@@ -64,6 +64,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     name = "Daniel Holzer"
     description = "Thoughts and milestones I face on my way to Software Engineer"
 
+
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
