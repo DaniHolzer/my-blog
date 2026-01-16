@@ -5,7 +5,7 @@
 #------------------------------------------------------------------------------
 # General Settings
 
-baseURL = "https://Daniholzer.github.io/my-blog/"
+baseURL = "https://daniholzer.github.io/my-blog/"
 title = "Daniel's Blog"
 theme = "hugo-blog-awesome"
 defaultContentLanguage = "en-gb"
