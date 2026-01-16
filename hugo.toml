@@ -1,27 +1,71 @@
-baseURL = "https://DaniHolzer.github.io/my-blog/"
-languageCode = "en-us"
+#------------------------------------------------------------------------------
+# Hugo Configuration File
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+# General SettingsbaseURL = "https://DaniHolzer.github.io/my-blog/"
+baseURL = "https://daniholzer.github.io/my-blog/"
 title = "Daniel's Blog"
 theme = "compose"
+languageCode = "en-us"
 
-[params]
+
+#------------------------------------------------------------------------------
+# Theme Specific Settings[params]
+
   author = "Daniel Holzer"
-  description = "Your blog description"
-  keywords = "blog,developer,personal"
-  info = ["On my way to WebDev"]
-  # avatarURL = "images/avatar.jpg"  # optional
-  colorScheme = "auto"
+  description = "Thoughts and milestones i face on my way to Software Engineer"
+  keywords = "blog,developer,personal,software,engineering,technology"
+  info = ["Software Engineer from South Tyrol"]
+  avatarURL = "images/Profilfoto500x500px.jpg"
+  colorScheme = "dark"
+  showReadingTime = false
+  showShareButton = true
+  showCodeCopyButton = true
+
+
+#--------------------------------------
+# Social Media Links
 
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github"
   weight = 1
-  url = "https://github.com/DaniHolzer/"
+  url = "https://github.com/DaniHolzer"
 
 [[params.social]]
-  name = "Twitter"
+  name = "GitLab"
+  icon = "fa-brands fa-gitlab fa-2x"
+  weight = 4
+  url = "https://gitlab.com/DaniHolzer"
+
+[[params.social]]
+  name = "X"
   icon = "fa-brands fa-twitter"
   weight = 2
-  url = "https://twitter.com/DanielHolz19614/"
+  url = "https://x.com/DanielHolz19614"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://linkedin.com/in/daniel-holzer-9963262a1"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 6
+  url = "https://instagram.com/daniel_holzer01"
+
+[[params.social]]
+  name = "Discord"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 8
+  url = "https://discordapp.com/users/504335286700998656"
+
+#------------------------------------------------------------------------------
+# Pages Settings
 
 [languages.en]
   languageName = "English"
