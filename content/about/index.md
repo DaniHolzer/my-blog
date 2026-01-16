@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: "About Me"
 date: 2025-11-22T10:24:00+02:00
 draft: false
 hideLastModified: true
@@ -7,9 +7,18 @@ showInMenu: true
 weight: 2
 ---
 
-Nice to meet you!<br>
-I'm Daniel, i started learning Software Engineer 2 years ago.
+## Hi, I'm Daniel
+a self-taught software engineering student from South Tyrol.
 
-This is my personal blog where I share my thoughts, experiences, and insights on various topics that interest me.
-I enjoy exploring new programming languages, frameworks, and tools to stay updated in this ever-evolving field.
+I started learning software development from home two years ago, following a
+structured but independent path. My main learning resources have been Udemy
+courses and CompTIA certifications, which helped me build a strong technical foundation.
+
+So far, I've worked with HTML, CSS, JavaScript, TypeScript, React, and Tailwind CSS.
+I enjoy turning ideas into clean, functional interfaces and continuously
+improving my skills one step at a time.
+
+I created this blog to document my progress, share important insights, and
+reflect on the journey of becoming a software engineer - honestly, openly,
+and in real time.
 
