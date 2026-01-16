@@ -1,10 +1,8 @@
-+++
-title = "About Me"
-date = "2025-11-22T10:24:00+02:00"
-draft= false
-hideLastModified = true
-showInMenu = true
-+++
+---
+title: Sobre
+description: 'Hugo, o framework mais rápido do mundo para contruir páginas da web'
+author: Nome do autor
+---
 
 # Hi, I'm Daniel
 a self-taught software engineering student from South Tyrol.
@@ -20,4 +18,3 @@ improving my skills one step at a time.
 I created this blog to document my progress, share important insights, and
 reflect on the journey of becoming a software engineer - honestly, openly,
 and in real time.
-

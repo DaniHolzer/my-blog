@@ -2,80 +2,102 @@
 # Hugo Configuration File
 #------------------------------------------------------------------------------
 
-
 #------------------------------------------------------------------------------
-# General SettingsbaseURL = "https://DaniHolzer.github.io/my-blog/"
-baseURL = "https://daniholzer.github.io/my-blog/"
+# General Settings
+
+baseURL = "https://Daniholzer.github.io/my-blog/"
 title = "Daniel's Blog"
-theme = "compose"
-languageCode = "en-us"
+theme = "hugo-blog-awesome"
+defaultContentLanguage = "en-gb"
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
 
-#------------------------------------------------------------------------------
-# Theme Specific Settings[params]
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2 # ToC starts from H2
+		endLevel = 4 # ToC ends at H4
+		ordered = false # generates <ul> instead of <ol>
 
-  author = "Daniel Holzer"
-  description = "Thoughts and milestones i face on my way to Software Engineer"
-  keywords = "blog,developer,personal,software,engineering,technology"
-  info = ["Software Engineer from South Tyrol"]
-  avatarURL = "images/Profilfoto500x500px.jpg"
-  colorScheme = "dark"
-  showReadingTime = false
-  showShareButton = true
-  showCodeCopyButton = true
+
+############################## English language ################################
+[Languages.en-gb]
+  languageName = "English"
+  languageCode = "en-gb"
+  contentDir = "content/en"
+  weight = 1
+
+  [Languages.en-gb.menu]
+    [[Languages.en-gb.menu.main]]
+      pageRef = "/"
+      name = "Home"
+      url = "/"
+      weight = 10
+    [[Languages.en-gb.menu.main]]
+      pageRef = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 20
+    [[Languages.en-gb.menu.main]]
+      pageRef = "about"
+      name = "About"
+      url = "/about/"
+      weight = 30
+
+  [Languages.en-gb.params]
+    sitename = "Daniel's Blog"
+    description = "Thoughts and milestones I face on my way to Software Engineer"
+    defaultColor = "dark"
+    mainSections = ["posts"]
+    toc = true
+    tocOpen = false
+    goToTop = true
+
+  [Languages.en-gb.params.author]
+    avatar = "images/Profilefoto500x500.jpg"  # ← relative to static/
+    intro = "Daniel's Blog"
+    name = "Daniel Holzer"
+    description = "Thoughts and milestones I face on my way to Software Engineer"
+
+# Allow to override webmanifest options
+[Languages.en-gb.params.webmanifest]
+  name = "sitename" # will use "params.sitename" or "title" by default
+  short_name = "sitename" # same as name
+  start_url = "/" # will use homepage url by default
+  theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+  background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+  display = "standalone"
 
 
 #--------------------------------------
 # Social Media Links
 
-[[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github"
-  weight = 1
+[[params.socialIcons]]
+  name = "github"
   url = "https://github.com/DaniHolzer"
 
-[[params.social]]
-  name = "GitLab"
-  icon = "fa-brands fa-gitlab fa-2x"
-  weight = 4
+[[params.socialIcons]]
+  name = "gitlab"
   url = "https://gitlab.com/DaniHolzer"
 
-[[params.social]]
-  name = "X"
-  icon = "fa-brands fa-twitter"
-  weight = 2
+[[params.socialIcons]]
+  name = "twitter"
   url = "https://x.com/DanielHolz19614"
 
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  weight = 3
+[[params.socialIcons]]
+  name = "linkedIn"
   url = "https://linkedin.com/in/daniel-holzer-9963262a1"
 
-[[params.social]]
-  name = "Instagram"
-  icon = "fa-brands fa-instagram fa-2x"
-  weight = 6
+[[params.socialIcons]]
+  name = "instagram"
   url = "https://instagram.com/daniel_holzer01"
 
-[[params.social]]
+[[params.socialIcons]]
   name = "Discord"
-  icon = "fa-brands fa-discord fa-2x"
-  weight = 8
   url = "https://discordapp.com/users/504335286700998656"
 
-#------------------------------------------------------------------------------
-# Pages Settings
-
-[languages.en]
-  languageName = "English"
-
-[[languages.en.menu.main]]
-  name = "Blog"
-  weight = 1
-  url = "posts/"
-
-[[languages.en.menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
