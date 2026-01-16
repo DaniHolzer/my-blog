@@ -1,10 +1,11 @@
 +++
-title = "HOME"
+title = "Danie Holzer"
 date = '2026-01-16T11:34:38+02:00'
+info = ["Software Engineer from South Tyrol"]
 draft = false
 +++
 
-Welcome
+# Welcome
 
 ...to my personal blog!
 
