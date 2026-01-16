@@ -59,7 +59,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     goToTop = true
 
   [Languages.en-gb.params.author]
-    avatar = "images/Profilefoto500x500.jpg"  # ← relative to static/
+    avatar = "avatar.jpg"
     intro = "Daniel's Blog"
     name = "Daniel Holzer"
     description = "Thoughts and milestones I face on my way to Software Engineer"

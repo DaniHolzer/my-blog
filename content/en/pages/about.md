@@ -1,7 +1,7 @@
 ---
-title: Sobre
+title: About
 description: 'Hugo, o framework mais rápido do mundo para contruir páginas da web'
-author: Nome do autor
+author: Daniel Holzer
 ---
 
 # Hi, I'm Daniel
