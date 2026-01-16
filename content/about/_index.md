@@ -1,13 +1,13 @@
-+++
-title: "About Me"
-date = "2025-11-22T10:24:00+02:00"
-draft = false
-hideLastModified = true
-showInMenu = false
-weight = 2
-+++
+---
+#title: "About Me"
+date: 2025-11-22T10:24:00+02:00
+draft: false
+hideLastModified: true
+showInMenu: false
+weight: 2
+---
 
-# Hi, I'm Daniel
+## Hi, I'm Daniel
 a self-taught software engineering student from South Tyrol.
 
 I started learning software development from home two years ago, following a
