@@ -2,10 +2,12 @@
 
 This repository contains the source code for my personal tech blog.
 
-The blog is a place where I document my journey into software engineering -- sharing milestones,
+The blog is a place where I document my journey into software engineering - sharing milestones,
 lessons learned and important thoughts along the way.
 It serves both as a learning journal and a resource for others who
 are self-teaching or transitioning into tech.
+
+Check it out: [My Blog](https://daniholzer.github.io/my-blog)
 
 ## About the Project
 
