@@ -7,7 +7,7 @@ lessons learned and important thoughts along the way.
 It serves both as a learning journal and a resource for others who
 are self-teaching or transitioning into tech.
 
-Check it out: [My Blog](https://daniholzer.github.io/my-blog)
+Visit [My Blog](https://daniholzer.github.io/my-blog){:target="_blank"} and tell me your first impressions.
 
 ## About the Project
 
