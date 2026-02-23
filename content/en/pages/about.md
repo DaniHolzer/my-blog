@@ -1,6 +1,6 @@
 ---
 title: About
-description: 'Hugo, o framework mais rápido do mundo para contruir páginas da web'
+description: 'More about my self.'
 author: Daniel Holzer
 ---
 
@@ -11,7 +11,7 @@ I started learning software development from home two years ago, following a
 structured but independent path. My main learning resources have been Udemy
 courses and CompTIA certifications, which helped me build a strong technical foundation.
 
-So far, I've worked with HTML, CSS, JavaScript, TypeScript, React, and Tailwind CSS.
+So far, I've worked with HTML, CSS, TailwindCSS, JavaScript, React, TypeScript.
 I enjoy turning ideas into clean, functional interfaces and continuously
 improving my skills one step at a time.
 
