@@ -61,6 +61,6 @@ Local -> GitHub -> Netlify (Automated)
 
 <br/>
 
-> **→ Next:** [Designing with Penpot](/posts/profielPage-fourthPost/)
+> **→ Next:** [Designing with Penpot](/posts/profilePage-fourthPost/)
 
 *Continue reading the "First Complete Project" series.*
