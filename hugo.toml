@@ -4,7 +4,6 @@
 
 #------------------------------------------------------------------------------
 # General Settings
-
 baseURL = "https://daniholzer.github.io/my-blog/"
 title = "Daniel's Blog"
 theme = "hugo-blog-awesome"
@@ -34,19 +33,16 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
   [Languages.en-gb.menu]
     [[Languages.en-gb.menu.main]]
-      pageRef = "/"
       name = "Home"
       url = "/"
       weight = 10
     [[Languages.en-gb.menu.main]]
-      pageRef = "posts"
       name = "Posts"
       url = "/posts/"
       weight = 20
     [[Languages.en-gb.menu.main]]
-      pageRef = "about"
       name = "About"
-      url = "/about/"
+      url = "/pages/about/"
       weight = 30
 
   [Languages.en-gb.params]
@@ -63,67 +59,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     intro = "Daniel's Blog"
     name = "Daniel Holzer"
     description = "Thoughts and milestones I face on my way to Software Engineer"
-
-############################## German language ################################
-[Languages.de-de]
-  languageName = "German"
-  languageCode = "de-de"
-  contentDir = "content/de"
-  weight = 1
-
-  [Languages.de-de.menu]
-    [[Languages.de-de.menu.main]]
-      pageRef="/"
-      name = 'Startseite'
-      url = '/'
-      weight = 10
-    [[Languages.de-de.menu.main]]
-      pageRef="posts"
-      name = 'Beiträge'
-      url = '/posts/'
-      weight = 20
-    [[Languages.de-de.menu.main]]
-      pageRef="about"
-      name = 'Über mich'
-      url = '/about/'
-      weight = 30
-
-  [Languages.de-de.params]
-    sitename = "Daniel's Blog"
-    defaultColor = "dark"
-    description = "Gedanken und Meilensteine auf meinem Weg zum Softwareentwickler"
-    mainSections = ['posts']
-    toc = true
-    tocOpen = false
-    goToTop = true
-    additionalScripts = ['js/custom.js', 'js/custom-2.js']
-    dateFormat = ""
-    rssFeedDescription = "summary"
-
-  [Languages.de-de.params.author]
-    avatar = "avatar.jpg"
-    intro = "Daniel's Blog"
-    name = "Sidharth R"
-    description = "Gedanken und Meilensteine auf meinem Weg zum Softwareentwickler"
-
-# Allow to override webmanifest options
-[Languages.de-de.params.webmanifest]
-  name = "sitename"
-  short_name = "sitename"
-  start_url = "/"
-  theme_color = "#434648"
-  background_color = "#fff"
-  display = "standalone"
-
-# Allow to override webmanifest options
-[Languages.en-gb.params.webmanifest]
-  name = "sitename"
-  short_name = "sitename"
-  start_url = "/"
-  theme_color = "#434648"
-  background_color = "#fff"
-  display = "standalone"
-
+    email = "daniel@example.com"
 
 #--------------------------------------
 # Social Media Links
